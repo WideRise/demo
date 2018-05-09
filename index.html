@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="X-UA-Compatible" content="IE=edge"/>
+		<meta name="keywords" content="中国传统节日网站"/>
+		<meta name="description" content="中国传统节日网站"/>
+		<title>中国传统节日网站</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+        <script src="js/login.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<!--header-->
+		<div class="top_wrap">
+			<!--top index-->
+			<div class="top">
+				<span class="welcome">欢迎您访问中国传统节日网站！</span>
+				<div class="corner">
+					<a onclick=SetHome(this,window.location) title="登录" href="login.html">登录</a>
+					<span>|</span>
+					<a onclick=addFavorite(window.location,document.title) title="注册" href="register.html">注册</a>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+		<!--logo and nav-->
+		<div class="header_wrap">
+			<div class="header">
+				<a href="#" class="logo"><img src="images1/logo1.png" /></a>
+				<div class="nav_list">
+					<ul id="nav" class="nav clearfix">
+						<li class="nLi" style="display: none;"></li>
+						<li class="nLi">
+							<h3><a href="#">春节</a></h3>
+							<ul class="sub">
+								<li><a href="春节的简介.html">春节简介</a></li>
+                                <li><a href="端午节的由来.html">春节由来</a></li>
+                                <li><a href="春节的习俗.html">春节习俗</a></li>
+								<li><a href="春节的诗歌.html">春节诗歌</a></li>	
+							</ul>
+						</li>
+						<li class="nLi">
+							<h3><a href="#">上元节</a></h3>
+							<ul class="sub">
+							    <li><a href="上元节的简介.html">上元节简介</a></li>
+                                <li><a href="七夕节的由来.html">上元节由来</a></li>
+                                <li><a href="上元节的习俗.html">上元节习俗</a></li>
+								<li><a href="七夕节的诗歌.html">上元节诗歌</a></li>
+							</ul>
+						</li>
+						<li class="nLi">
+							<h3><a href="#">清明节</a></h3>
+							<ul class="sub">
+							    <li><a href="清明节的简介.html">清明节简介</a></li>
+                                <li><a href="清明节的由来.html">清明节由来</a></li>
+                                <li><a href="清明节的习俗.html">清明节习俗</a></li>
+								<li><a href="清明节的诗歌.html">清明节诗歌</a></li>
+							</ul>
+						</li>                        
+						<li class="nLi">
+							<h3><a href="#">端午节</a></h3>
+							<ul class="sub">
+							    <li><a href="端午节的简介.html">端午节简介</a></li>
+                                <li><a href="端午节的由来.html">端午节由来</a></li>
+                                <li><a href="端午节的习俗.html">端午节习俗</a></li>
+								<li><a href="端午节的诗歌.html">端午节诗歌</a></li>
+							</ul>
+						</li>
+						<li class="nLi">
+							<h3><a href="#">七夕节</a></h3>
+							<ul class="sub">
+							    <li><a href="七夕节的简介.html">七夕节简介</a></li>
+                                <li><a href="七夕节的由来.html">七夕节由来</a></li>
+                                <li><a href="七夕节的习俗.html">七夕节习俗</a></li>
+								<li><a href="七夕节的诗歌.html">七夕节诗歌</a></li>
+							</ul>
+						</li>                       
+                        <li class="nLi">
+							<h3><a href="#">中秋节</a></h3>
+							<ul class="sub">
+							    <li><a href="中秋节的简介.html">中秋节简介</a></li>
+                                <li><a href="中秋节的由来.html">中秋节由来</a></li>
+                                <li><a href="中秋节的习俗.html">中秋节习俗</a></li>
+								<li><a href="中秋节的诗歌.html">中秋节诗歌</a></li>
+							</ul>
+						</li>
+                        <li class="nLi">
+							<h3><a href="#">重阳节</a></h3>
+							<ul class="sub">
+							    <li><a href="重阳节的简介.html">重阳节简介</a></li>
+                                <li><a href="重阳节的由来.html">重阳节由来</a></li>
+                                <li><a href="重阳节的习俗.html">重阳节习俗</a></li>
+								<li><a href="重阳节的诗歌.html">重阳节诗歌</a></li>
+							</ul>
+						</li> 
+					</ul>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+		<!--banner-->
+		<div class="banner">
+			<div class="bd">
+				<ul>
+					<li class="first"><a href="javascript:void(0);"></a></li>
+				</ul>
+			</div>
+			<div class="hd"><ul></ul></div>
+		</div>
+		<!--content-->
+		<div class="content">
+			<div class="left_tab">
+				<div class="hd">
+					<ul><li class="first">春节</li><li class="second">上元节</li><li class="third">清明节</li>
+                    <li class="fourth">端午节</li><li class="fifth">七夕节</li><li class="six">中秋节</li><li class="seven">重阳节</li>
+                    </ul>
+				</div>
+				<div class="bd">
+					<div class="box">
+						<a href="春节的简介.html" class="more">MORE+</a>
+						<ul class="clearfix">
+							<li><a href="春节的简介.html"><img src="images1/春节1.jpg" /><h4>春节简介</h4></a></li>
+							<li><a href="春节的诗歌.html"><img src="images1/春节2.jpg" /><h4>春节诗歌</h4></a></li>
+							<li><a href="春节的习俗.html"><img src="images1/春节3.jpg" /><h4>春节习俗</h4></a></li>
+							<li><a href="春节的由来.html"><img src="images1/5.jpg" /><h4>春节由来</h4></a></li>
+                            <li style="width: 225px; height: 256px; padding: 12px; float: left; background: #fff; border: 1px solid #ebebeb; box-shadow: 1px 1px 2px #ebebeb; margin: 20px 8px 0 8px;"><a href="#"><video width="230px" height="174px" controls poster="images1/IMG_0419.JPG">  <source src="video/春节.mp4" type="video/mp4">
+                             </video> <h4>春节视屏介绍</h4><span class="date">2016-05-05</span></a></li>
+						</ul>
+					</div>
+                    <div class="box">
+						<a href="上元节的简介.html" class="more">MORE+</a>
+						<ul class="clearfix">
+					    <ul class="clearfix">
+							<li><a href="上元节的简介.html"><img src="images1/e24cf0e35546e89f0f69f27a487537cc.jpeg" /><h4>上元节简介</h4></a></li>
+							<li><a href="上元节的诗歌.html"><img src="images1/1309fd60e8a2ea06edfeaa57dc475864.jpg" /><h4>上元节诗歌</h4></a></li>
+							<li><a href="上元节的习俗.html"><img src="images1/QJ6626491429.jpg" /><h4>上元节习俗</h4></a></li>
+							<li><a href="上元节的由来.html"><img src="images1/QJ6943043488.jpg" /><h4>上元节由来</h4></a></li>
+                            <li style="width: 225px; height: 256px; padding: 12px; float: left; background: #fff; border: 1px solid #ebebeb; box-shadow: 1px 1px 2px #ebebeb; margin: 20px 8px 0 8px;"><a href="#"><video width="230px" height="174px" controls poster="images1/QJ6937007960.jpg">  <source src="video/上元节.mp4" type="video/mp4">
+                             </video> <h4>上元节视屏介绍</h4><span class="date">2016-05-05</span></a></li>
+						</ul>
+					</div>                    
+                    <div class="box">
+						<a href="清明节的简介.html" class="more">MORE+</a>
+					    <ul class="clearfix">
+							<li><a href="清明节的简介.html"><img src="images1/清明2.jpg" /><h4>清明节简介</h4></a></li>
+							<li><a href="清明节的诗歌.html"><img src="images1/清明1.jpg" /><h4>清明节诗歌</h4></a></li>
+							<li><a href="清明节的习俗.html"><img src="images1/b3b5dd1faa13efff0034f17310044a25.jpg" /><h4>清明节习俗</h4></a></li>
+							<li><a href="清明节的由来.html"><img src="images1/清明4.jpg" /><h4>清明节由来</h4></a></li>
+                            <li style="width: 225px; height: 256px; padding: 12px; float: left; background: #fff; border: 1px solid #ebebeb; box-shadow: 1px 1px 2px #ebebeb; margin: 20px 8px 0 8px;"><a href="#"><video width="230px" height="174px" controls poster="images1/清明3.jpg">  <source src="video/清明节.mp4" type="video/mp4">
+                             </video> <h4>清明节视屏介绍</h4><span class="date">2016-05-05</span></a></li>
+						</ul>
+					</div>
+                    <div class="box">
+						<a href="端午节的简介.html" class="more">MORE+</a>
+					    <ul class="clearfix">
+							<li><a href="端午节的简介.html"><img src="images1/端午1.jpg" /><h4>端午节简介</h4></a></li>
+							<li><a href="端午节的诗歌.html"><img src="images1/IMG_0428.JPG" /><h4>端午节诗歌</h4></a></li>
+							<li><a href="端午节的习俗.html"><img src="images1/IMG_0423.JPG" /><h4>端午节习俗</h4></a></li>
+							<li><a href="端午节的由来.html"><img src="images1/IMG_0429.JPG" /><h4>端午节由来</h4></a></li>
+                            <li style="width: 225px; height: 256px; padding: 12px; float: left; background: #fff; border: 1px solid #ebebeb; box-shadow: 1px 1px 2px #ebebeb; margin: 20px 8px 0 8px;"><a href="#"><video width="230px" height="174px" controls poster="images1/端午4.jpg">  <source src="video/爱剪辑-我的视频.mp4" type="video/mp4">
+                             </video> <h4>端午节视屏介绍</h4><span class="date">2016-05-05</span></a></li>
+						</ul>
+					</div>
+					<div class="box">
+						<a href="七夕节的简介.html" class="more">MORE+</a>
+					    <ul class="clearfix">
+							<li><a href="七夕节的简介.html"><img src="images1/IMG_0432.JPG" /><h4>七夕节简介</h4></a></li>
+							<li><a href="七夕节的诗歌.html"><img src="images1/IMG_0435.JPG" /><h4>七夕节诗歌</h4></a></li>
+							<li><a href="七夕节的习俗.html"><img src="images1/IMG_0434.JPG" /><h4>七夕节习俗</h4></a></li>
+							<li><a href="七夕节的由来.html"><img src="images1/IMG_0433.JPG" /><h4>七夕节由来</h4></a></li>
+                            <li style="width: 225px; height: 256px; padding: 12px; float: left; background: #fff; border: 1px solid #ebebeb; box-shadow: 1px 1px 2px #ebebeb; margin: 20px 8px 0 8px;"><a href="#"><video width="230px" height="174px" controls poster="images1/IMG_0430.JPG">  <source src="video/七夕节.mp4" type="video/mp4">
+                             </video> <h4>七夕节视屏介绍</h4><span class="date">2016-05-05</span></a></li>
+						</ul>
+					</div>
+                    <div class="box">
+						<a href="中秋节的简介.html" class="more">MORE+</a>
+					    <ul class="clearfix">
+							<li><a href="中秋节的简介.html"><img src="images1/362ce90104d7d791361b2291408453e9.jpg" /><h4>中秋节简介</h4></a></li>
+							<li><a href="中秋节的诗歌.html"><img src="images1/中秋2.jpg" /><h4>中秋节诗歌</h4></a></li>
+							<li><a href="中秋节的习俗.html"><img src="images1/IMG_0415.JPG" /><h4>中秋节习俗</h4></a></li>
+							<li><a href="中秋节的由来.html"><img src="images1/IMG_0416.JPG" /><h4>中秋节由来</h4></a></li>
+                            <li style="width: 225px; height: 256px; padding: 12px; float: left; background: #fff; border: 1px solid #ebebeb; box-shadow: 1px 1px 2px #ebebeb; margin: 20px 8px 0 8px;"><a href="#"><video width="230px" height="174px" controls poster="images1/IMG_0418.JPG">  <source src="video/中秋节.mp4" type="video/mp4">
+                             </video> <h4>中秋节视屏介绍</h4><span class="date">2016-05-05</span></a></li>
+						</ul>
+					</div>
+                    <div class="box">
+						<a href="重阳节的简介.html" class="more">MORE+</a>
+					    <ul class="clearfix">
+							<li><a href="重阳节的简介.html"><img src="images1/重阳2.jpg" /><h4>重阳节简介</h4></a></li>
+							<li><a href="重阳节的诗歌.html"><img src="images1/重阳4.jpg" /><h4>重阳节诗歌</h4></a></li>
+							<li><a href="重阳节的习俗.html"><img src="images1/重阳3.jpg" /><h4>重阳节习俗</h4></a></li>
+							<li><a href="重阳节的由来.html"><img src="images1/重阳1.jpg" /><h4>重阳节由来</h4></a></li>
+                            <li style="width: 225px; height: 256px; padding: 12px; float: left; background: #fff; border: 1px solid #ebebeb; box-shadow: 1px 1px 2px #ebebeb; margin: 20px 8px 0 8px;"><a href="#"><video width="230px" height="174px" controls poster="images1/8c173e85fb489b4b8123cb0ddd15b2ce.jpg">  <source src="video/重阳节.mp4" type="video/mp4">
+                             </video> <h4>重阳节视屏介绍</h4><span class="date">2016-05-05</span></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="right_box">
+				<!--notice-->
+				<div class="notice">
+					<div class="n_title">
+						<b>留言板</b>
+						<a href="#">MORE+</a>
+					</div>
+					<div class="bd">
+						<ul class="infoList">
+							<li><a href="#">一生一世：这个网站不错，可以用来当模板。</a><span class="date">2018-01-11</span></li>
+							<li><a href="#">来自火星地球人：网页很漂亮</a><span class="date">2017-07-01</span></li>
+							<li><a href="#">起风了：@来自火星地球人，顶你上去。</a><span class="date">2017-05-23</span></li>
+							<li><a href="#">匿名：我只是路过的，这里还不错。</a><span class="date">2017-03-18</span></li>
+							<li><a href="#">来自火星地球人：@起风了，谢谢。</a><span class="date">2016-05-30</span></li>
+							
+						</ul>
+					</div>
+				</div>
+				<!--code-->
+				<div class="code">
+					<img src="images1/2.png" />
+				</div>
+			</div>
+			<div class="clear"></div>
+
+		</div>
+		<!--footer-->
+		<div class="footer_wrap">
+			<div class="line"></div>
+			<div class="footer">
+				<div class="f_left">
+					
+					<div class="contact">
+
+						<p>版权所有:咸阳师范学院</p>
+					</div>
+				</div>
+				<div class="f_right">
+					<p><a href="" style="text-decoration: underline;"></a></p>
+					<p><a href=""></a></p>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/jquery-1.11.0.min.js" ></script>
+		<script type="text/javascript" src="js/jquery.SuperSlide.2.1.js" ></script>
+		<script type="text/javascript" src="js/common.js" ></script>
+		<script type="text/javascript">
+			//banner滚动效果
+			jQuery(".banner").slide({ titCell:".hd ul", mainCell:".bd ul", effect:"fold",  autoPlay:true, autoPage:true, trigger:"click" });
+			//tab切换效果
+			jQuery(".left_tab").slide();
+			//news滚动效果
+			jQuery(".notice").slide({mainCell:".bd ul",autoPage:true,effect:"top",autoPlay:true,vis:3});
+		</script>
+	</body>
+</html>
